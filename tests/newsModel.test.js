@@ -14,4 +14,9 @@ describe('NewsModel', () => {
       {content: "some more content"}
     ]);
   });
+
+  it('is initially null when constructed', () => {
+    const model = new NewsModel();
+    expect(model.getNews()).toEqual(null)
+  })
 })
