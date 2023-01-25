@@ -3,7 +3,7 @@ const guardianApiKey = require('../guardianApiKey')
 class NewsClient {
   
   getNewsFromApi(callback) {
-    fetch(`https://content.guardianapis.com/search?api-key=${guardianApiKey}&show-fields=all`)
+    fetch(`https://content.guardianapis.com/search?api-key=${guardianApiKey}&show-fields=thumbnail`)
     .then(response => response.json())
     .then(articleData => {
       callback(articleData)
@@ -11,11 +11,11 @@ class NewsClient {
   }
 
   searchNewsFromApi(searchQuery, callback) {
-    fetch(`https://content.guardianapis.com/search?&q=${searchQuery}api-key=${guardianApiKey}&show-fields=all`)
+    fetch(`https://content.guardianapis.com/search?q=${searchQuery}&api-key=${guardianApiKey}&show-fields=thumbnail`)
     .then(response => response.json())
     .then(articleData => {
       callback(articleData)
-    })
+    });
   }
 
 }
