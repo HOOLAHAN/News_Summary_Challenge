@@ -16,17 +16,21 @@ npm run build
 open index.html
 ````
 
+## Demo
 
-* Feel free to use Google, your notes, books, etc. but work on your own.
-* If you refer to the solution of another coach or student, please put a link to that in
-  your README.
-* If you have a partial solution, **still check in a partial solution** and send in a pull
-  request.
-* You must submit a pull request to this repo with your code by 10am Monday morning.
+### The home page displays a feed of todays top stories and a search bar
+
+![Home Feed](./images/Feed.png)
+
+### When a search has been entered the feed will update to give results related to the input
+
+![Search Politics](./images/Search-Politics.png)
+
+### The page is formatted to also work on phone sized screens
+
+![iPhone 12](./images/iPhone 12.png)
 
 ## Challenge
-
-As usual please start by forking this repo.
 
 You'll create an app that shows the latest news using the Guardian API. You'll find
 instructions on how to setup and use the API down this page.
