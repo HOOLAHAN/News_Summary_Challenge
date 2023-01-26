@@ -31,7 +31,7 @@ class NewsView {
     if (searchQuery === undefined) {
       storiesEl.textContent = 'Top stories';
     } else {
-      storiesEl.textContent = `Latest ${searchQuery} stories`;
+      storiesEl.textContent = `Latest '${searchQuery}' stories`;
     }
 
     storiesEl.className = 'stories-header'
