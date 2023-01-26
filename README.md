@@ -24,11 +24,11 @@ open index.html
 
 ### When a search has been entered the feed will update to give results related to the input
 
-![Search Politics](./images/Search-Politics.png)
+![Search-Politics](./images/Search-Politics.png)
 
 ### The page is formatted to also work on phone sized screens
 
-![iPhone 12](./images/iPhone 12.png)
+![iPhone-12](./images/iPhone-12.png)
 
 ## Challenge
 
